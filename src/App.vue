@@ -1,11 +1,10 @@
 <template>
   <div class="app">
-    <login></login>
-
+    <RouterView></RouterView>
   </div>
 </template>
 <script setup>
-import login from "./views/login/index.vue";
+
 
 </script>
 
@@ -13,7 +12,7 @@ import login from "./views/login/index.vue";
 .app{
   width: 100vw;
   height: 100vh;
-  background-color: wheat;
+  // background-color: wheat;
 }
 
 </style>
